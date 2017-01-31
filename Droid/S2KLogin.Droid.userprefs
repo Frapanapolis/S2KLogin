@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{BC16BB15-3592-42D0-8943-CEDB144CACEA}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="S2KLogin.Droid" expanded="True" selected="True">
+            <Node name="S2KLogin.Droid" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.S2KLogin.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+</Properties>

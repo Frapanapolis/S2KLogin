@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		 BackgroundColor="#63B1C1"
+x:Class="S2KLogin.Login"
+		 >
+	<ContentPage.Content>
+		
+ 		<Grid>	
+
+			<Grid   Padding="0,-260,0,0">
+			<Image  
+				Source="login_title.png"/>
+			</Grid>  
+			<Grid Padding="15,30,15,0">
+			<Image  
+				Source="login_body.png"/>
+			</Grid>
+			 
+				 
+			<StackLayout Padding="35,222,35,10"  >
+				<Label Text="ID" TextColor="White" FontSize="15"></Label>
+  				<Entry x:Name="IDEntry" VerticalOptions="Start" HorizontalOptions="FillAndExpand" BackgroundColor="#BADCE2"/>
+  				<Label Text="Password" TextColor="White" FontSize="15"></Label>
+  				<Entry x:Name="PWEntry" IsPassword="true" VerticalOptions="Start" HorizontalOptions="FillAndExpand" BackgroundColor="#BADCE2" />
+									  	
+
+         <Grid Padding="0,40,0,0">
+         		<Grid.RowDefinitions>
+						         			<RowDefinition Height="*" />
+         			 <RowDefinition Height="*" />
+				</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+    				<ColumnDefinition Width="*" />
+						    				 
+						    				<ColumnDefinition Width="*" />
+   				</Grid.ColumnDefinitions>
+					<Button Text="Login" BackgroundColor="#333333" Grid.Row="0" Grid.Column="0"  Grid.ColumnSpan="2" HeightRequest="30" WidthRequest="150" HorizontalOptions="CenterAndExpand" TextColor="White" Clicked="OnLogin"  />
+					  	<Button BackgroundColor="#63B1C1" Text="    Find Password" Grid.Row="1" Grid.Column="0"   FontSize="10"  TextColor="White"   />
+					  	<Button Text="    Sign Up" HeightRequest="15"  FontSize="10"     Grid.Row="1" Grid.Column="1"   TextColor="White"  BackgroundColor="#63B1C1" />
+					<Button BackgroundColor="#63B1C1" Text="Website" Grid.Row="2" Grid.Column="0"      TextColor="White" BorderColor="White" />
+						<Button BackgroundColor="#63B1C1" Text="Release" Grid.Row="2" Grid.Column="1"      TextColor="White" BorderColor="White" />
+			</Grid>
+
+
+   			 
+		</StackLayout>
+		</Grid>
+	</ContentPage.Content>
+</ContentPage>

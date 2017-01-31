@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="S2KLogin.Home" BackgroundColor="#63B1C1" Title="Home">
+	<ContentPage.Content>
+		<StackLayout Spacing="0" Padding="5,25,5,5">
+							
+			<Grid BackgroundColor="#63B1C1" HeightRequest="150">
+
+				<Grid.RowDefinitions>
+					<RowDefinition Height="5" />
+					<RowDefinition Height="5" /> 
+					<RowDefinition Height="5" /> 
+					<RowDefinition Height="5" />
+					<RowDefinition Height="5" /> 
+					<RowDefinition Height="5" /> 
+					<RowDefinition Height="5" /> 
+					<RowDefinition Height="5" />
+					<RowDefinition Height="5" /> 
+					<RowDefinition Height="5" /> 
+					<RowDefinition Height="5" />
+					<RowDefinition Height="5" /> 
+					<RowDefinition Height="5" /> 
+					<RowDefinition Height="5" /> 
+				</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+				</Grid.ColumnDefinitions>
+				<Image Grid.Row="0" Grid.Column ="0" Grid.RowSpan="15" Grid.ColumnSpan="15" Source="main_list.png" />
+
+				<Image Grid.Column="0" Grid.Row="1" Scale=".6" Source="pc_platform_labtop.png" Grid.RowSpan="11" Grid.ColumnSpan="12" HorizontalOptions="Center" VerticalOptions="Center" />
+
+				<Label Grid.Row="10" Grid.Column="0" Grid.RowSpan="4" Grid.ColumnSpan="12" Text="Macbook" HorizontalTextAlignment="Center"   VerticalTextAlignment="Center" TextColor="White"/>
+ 
+ 
+  
+				 
+
+
+			</Grid>
+			  
+
+			<Grid BackgroundColor="#63B1C1" HeightRequest="150">
+
+				<Grid.RowDefinitions>
+					<RowDefinition Height="5" />
+					<RowDefinition Height="5" /> 
+					<RowDefinition Height="5" /> 
+					<RowDefinition Height="5" />
+					<RowDefinition Height="5" /> 
+					<RowDefinition Height="5" /> 
+					<RowDefinition Height="5" /> 
+					<RowDefinition Height="5" />
+					<RowDefinition Height="5" /> 
+					<RowDefinition Height="5" /> 
+					<RowDefinition Height="5" />
+					<RowDefinition Height="5" /> 
+					<RowDefinition Height="5" /> 
+					<RowDefinition Height="5" /> 
+				</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+				</Grid.ColumnDefinitions>
+				<Image Grid.Row="0" Grid.Column ="0" Grid.RowSpan="15" Grid.ColumnSpan="15" Source="main_list.png" />
+
+				<Image Grid.Column="0" Grid.Row="1" Scale=".6" Source="pc_platform_pc.png" Grid.RowSpan="11" Grid.ColumnSpan="12" HorizontalOptions="Center" VerticalOptions="Center" />
+
+				<Label Grid.Row="10" Grid.Column="0" Grid.RowSpan="4" Grid.ColumnSpan="12" Text="iMac" HorizontalTextAlignment="Center"   VerticalTextAlignment="Center" TextColor="White"/>
+  
+			</Grid>
+			 <Grid BackgroundColor="#63B1C1" HeightRequest="150">
+
+				<Grid.RowDefinitions>
+					<RowDefinition Height="5" />
+					<RowDefinition Height="5" /> 
+					<RowDefinition Height="5" /> 
+					<RowDefinition Height="5" />
+					<RowDefinition Height="5" /> 
+					<RowDefinition Height="5" /> 
+					<RowDefinition Height="5" /> 
+					<RowDefinition Height="5" />
+					<RowDefinition Height="5" /> 
+					<RowDefinition Height="5" /> 
+					<RowDefinition Height="5" />
+					<RowDefinition Height="5" /> 
+					<RowDefinition Height="5" /> 
+					<RowDefinition Height="5" /> 
+				</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+					<ColumnDefinition Width="5"/>
+				</Grid.ColumnDefinitions>
+				<Image Grid.Row="0" Grid.Column ="0" Grid.RowSpan="15" Grid.ColumnSpan="15" Source="main_list.png" />
+
+				<Image Grid.Column="0" Grid.Row="1" Scale=".6" Source="pc_platform_website.png" Grid.RowSpan="11" Grid.ColumnSpan="12" HorizontalOptions="Center" VerticalOptions="Center" />
+
+				<Label Grid.Row="10" Grid.Column="0" Grid.RowSpan="4" Grid.ColumnSpan="12" Text="Website" HorizontalTextAlignment="Center"   VerticalTextAlignment="Center" TextColor="White"/>
+  
+			</Grid>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

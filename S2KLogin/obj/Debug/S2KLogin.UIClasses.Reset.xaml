@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		 BackgroundColor="#63B1C1"
+x:Class="S2KLogin.Reset"
+		Title="Factory Initialization" >
+	<ContentPage.Content>
+		
+ 		<Grid>	
+			 
+			<Grid Padding="15,0,15,0" VerticalOptions="Start">
+				<Image Source="reset_mark.png" Scale="0.6"/>
+			</Grid>
+
+
+			 
+				  
+			<StackLayout Padding="35,145,35,35"  >
+
+         	 
+			<Grid>
+         		<Grid.RowDefinitions>
+         			<RowDefinition Height="250" />
+		 	</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+    				<ColumnDefinition Width="*" />
+    			</Grid.ColumnDefinitions>
+  						<Button Text="Initialize" BackgroundColor="#333333" Grid.Row="2" Grid.ColumnSpan="2" HeightRequest="35" WidthRequest="150" HorizontalOptions="CenterAndExpand" TextColor="White" VerticalOptions="Start"    />
+ 			</Grid>
+			</StackLayout>
+		</Grid>
+	</ContentPage.Content>
+</ContentPage>

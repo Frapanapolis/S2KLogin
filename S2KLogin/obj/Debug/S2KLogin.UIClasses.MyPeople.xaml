@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+			 x:Class="S2KLogin.MyPeople"
+			 BackgroundColor="#63B1C1" xmlns:local="clr-namespace:S2KLogin;assembly=S2KLogin"
+		Title="Home">
+	<ContentPage.Content>
+		<Grid>
+
+			<Image Opacity="6"
+				   x:Name="img"
+				   Source="bridge_bg.png"
+				   Scale="1.5"
+				   Aspect="AspectFill"/>	
+
+			<StackLayout Padding="10,30,10,0">
+
+				<ListView ItemsSource="{Binding  }" 
+						  SeparatorVisibility="None" 
+						  BackgroundColor="Transparent"
+						  SeparatorColor="#DFDFDF"
+						  HasUnevenRows="false"
+						  RowHeight="160">
+					<ListView.ItemTemplate>
+						<DataTemplate>
+							<ViewCell>
+								<local:MyPeopleTemplate  />
+							</ViewCell>
+						</DataTemplate>
+					</ListView.ItemTemplate>	
+				</ListView>
+			</StackLayout>
+		</Grid>
+	</ContentPage.Content>
+</ContentPage>

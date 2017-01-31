@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="S2KLogin.MyPeopleTemplate">
+	<ContentView.Content>
+
+		<StackLayout Spacing="0" Padding="0">
+			<Grid Style="{DynamicResource CardStyle}">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="90"/>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="5"/>
+				</Grid.ColumnDefinitions>
+
+				<Image Grid.Column="0" Source="{Binding Photo}"/>
+				<StackLayout Grid.Column="1" Spacing="0" Padding="0,5">
+					<Label Text="{Binding Name}" Style="{DynamicResource NameStyle}"/>
+					<Label Text="{Binding Department}" Style="{DynamicResource DepartmentStyle}"/>
+				</StackLayout>
+				<StackLayout Grid.Column="1" Spacing="0" Padding="0" VerticalOptions="End">
+					<Label Text="{Binding City}" Style="{DynamicResource LocationStyle}"/>
+				</StackLayout>
+				<StackLayout Grid.Column="1" Orientation="Horizontal" Spacing="4" HorizontalOptions="End" Padding="0" VerticalOptions="End">
+						<Label Text="{Binding Followers}" FontAttributes="Bold" Style="{DynamicResource SocialStyle}"/>	
+						<Label Text="Followers" Style="{DynamicResource SocialStyle}"/>
+					</StackLayout>
+				<Label Grid.Column="1" Text="[+]" Style="{DynamicResource MoreStyle}"/>	
+			</Grid>
+
+			<BoxView BackgroundColor="Black" HeightRequest="0.5"></BoxView>
+
+			<Grid Style="{DynamicResource MessageBox}"   >
+				<StackLayout Orientation="Horizontal" >
+					<Label Text="{Binding Name}" Style="{DynamicResource NameStyle}"/>
+					
+ 				</StackLayout>
+				
+			</Grid>
+			 
+			<BoxView Style="{DynamicResource ShadowStyle}"></BoxView>
+		</StackLayout>
+
+	</ContentView.Content>
+</ContentView>

@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		 BackgroundColor="#63B1C1"
+x:Class="S2KLogin.SignUp"
+		 >
+	<ContentPage.Content>
+		
+ 		<Grid>	
+			<Grid Padding="15,20,15,0" VerticalOptions="Start">
+			<Image  
+				Source="signup_title_bg.png"/>
+			</Grid>
+			<Grid Padding="15,30,15,0">
+			<Image  
+				Source="signup_bg.png"/>
+			</Grid>
+
+
+			 
+				  
+			<StackLayout Padding="35,125,35,10"  >
+
+				<Grid  > 
+					<Grid.RowDefinitions>
+    				<RowDefinition Height="15" />
+   				</Grid.RowDefinitions>
+  				<Grid.ColumnDefinitions>
+    				<ColumnDefinition Width="*" />
+    				<ColumnDefinition Width="*" />
+  				</Grid.ColumnDefinitions>
+						<Label Text="ID" TextColor="White" Grid.Row="0" Grid.Column="0"></Label>
+						<Label Text="4 to 12 Characters" TextColor="White" Grid.Row="0" Grid.Column="1" FontSize="6" HorizontalTextAlignment="End" VerticalTextAlignment="End" ></Label>
+				</Grid>
+  						<Entry x:Name="IDEntry" VerticalOptions="Start" HorizontalOptions="FillAndExpand" BackgroundColor="#BADCE2"/>
+
+				<Grid  > 
+					<Grid.RowDefinitions>
+    				<RowDefinition Height="15" />
+   				</Grid.RowDefinitions>
+  				<Grid.ColumnDefinitions>
+    				<ColumnDefinition Width="*" />
+    				<ColumnDefinition Width="*" />
+  				</Grid.ColumnDefinitions>
+						<Label Text="Password" TextColor="White" Grid.Row="0" Grid.Column="0"></Label>
+						<Label Text="6 to 12 Characters" TextColor="White" Grid.Row="0" Grid.Column="1" FontSize="6" HorizontalTextAlignment="End" VerticalTextAlignment="End" ></Label>
+				</Grid>
+  				 
+  				<Entry x:Name="PWEntry"  IsPassword="true" VerticalOptions="Start" HorizontalOptions="FillAndExpand" BackgroundColor="#BADCE2" />
+				<Label Text="Confirm Password" TextColor="White"></Label>
+  				<Entry x:Name="PWConfirmEntry"  IsPassword="true" VerticalOptions="Start" HorizontalOptions="FillAndExpand" BackgroundColor="#BADCE2" />
+				<Grid  > 
+					<Grid.RowDefinitions>
+    				<RowDefinition Height="15" />
+						
+   				</Grid.RowDefinitions>
+  				<Grid.ColumnDefinitions>
+    				<ColumnDefinition Width="*" />
+    				<ColumnDefinition Width="15" />
+					<ColumnDefinition Width="*" />
+
+  				</Grid.ColumnDefinitions>
+						<Label  Text="Email"  TextColor="White" Grid.Row="0" Grid.Column="0"></Label>
+						<Label Text="@" TextColor="White" Grid.Row="1" Grid.Column="1"></Label>
+						<Label Text="For finding passwords, etc." TextColor="White" Grid.Row="0" Grid.Column="2" FontSize="6" HorizontalTextAlignment="End" VerticalTextAlignment="End" ></Label>
+					  				<Entry  x:Name="EmailEntry" VerticalOptions="Start" Grid.Row="1" Grid.Column="0" HorizontalOptions="FillAndExpand" BackgroundColor="#BADCE2" />
+					  				<Entry  x:Name="CompanyEntry" VerticalOptions="Start" Grid.Row="1" Grid.Column="2" HorizontalOptions="FillAndExpand" BackgroundColor="#BADCE2" />
+ 					  				<Switch x:Name="EmailSwitch"   Grid.Row="4" Grid.Column="2" Scale="0.5" HorizontalOptions="Center" VerticalOptions="Start"></Switch>
+ 									<Label FontSize="10" Text="Recieve Email" TextColor="White" Grid.Row="3" Grid.Column="2" VerticalTextAlignment="End" HorizontalTextAlignment="Center"></Label>
+
+					<Picker x:Name="EmailPicker" Grid.Row="2" Grid.Column="2" Title="Direct Input"    BackgroundColor="#BADCE2">
+					<Picker.Items>
+            				<x:String>gmail.com</x:String>
+							<x:String>hanmail.com</x:String>
+							<x:String>hotmail.com</x:String>
+           					<x:String>nate.com</x:String>
+							<x:String>nave.comr</x:String> 
+           					<x:String>yahoo.com</x:String>
+       				 </Picker.Items>
+					</Picker>
+				</Grid>
+ 
+         <Grid  Padding="0,15,0,0">
+         		<Grid.RowDefinitions>
+         			<RowDefinition Height="45" />
+		 			 
+				</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+    				<ColumnDefinition Width="1" />
+						    				<ColumnDefinition Width="*" />
+
+						    				<ColumnDefinition Width="1" />
+
+   				</Grid.ColumnDefinitions>
+					
+					  	<Button Text="Sign Up" BackgroundColor="#333333" Grid.Row="0" Grid.Column="1" HeightRequest="15" WidthRequest="80" HorizontalOptions="CenterAndExpand" TextColor="White" Clicked="SignUP"  />
+					  	 
+			</Grid>
+
+
+   			 
+		</StackLayout>
+			
+		</Grid>
+	</ContentPage.Content>
+</ContentPage>

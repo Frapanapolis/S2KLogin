@@ -1,0 +1,18 @@
+{
+  "MyPeopleTemplate.xaml": {
+    "Name": "John Silverstain",
+    "City": "MELBOURNE",
+    "Department": "Marketing",
+    "Color": "Red",
+    "Age": 29,
+    "Followers": 243,
+    "Photo": "friend_thumbnail_27.jpg"
+  },
+
+  "MyPeople.xaml" : [
+		{ "Name": "ASUS", "City": "MELBOURNE", "Department":"Marketing", "Color":"Red", "Age":29, "Followers":243, "Photo":"pc_platform_labtop.png" },
+		{ "Name": "MacBook Pro", "City": "SIDNEY", "Department":"Design", "Age":32, "Followers":24,  "Photo":"pc_platform_pc.png" },
+		 
+	]
+
+}

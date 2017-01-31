@@ -1,0 +1,82 @@
+﻿<Properties StartupConfiguration="{A226F561-AA0F-4401-8495-27E4C3D59524}|Default">
+  <MonoDevelop.Ide.ItemProperties.S2KLogin.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9F9D4BC1-50F2-4398-A797-8B5C254B6F37" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Main.cs">
+    <Files>
+      <File FileName="../../Downloads/SanAngeles_NDK/SanAngeles_NDK/MainActivity.cs" Line="128" Column="50" />
+      <File FileName="../../Downloads/SanAngeles_NDK/SanAngeles_NDK/Properties/AndroidManifest.xml" Line="5" Column="12" />
+      <File FileName="../../Downloads/SanAngeles_NDK/SanAngeles_NDK/SanAngeles.csproj" Line="1" Column="1" />
+      <File FileName="Droid/S2KJni.cs" Line="52" Column="1" />
+      <File FileName="Droid/S2KDroid.cs" Line="21" Column="23" />
+      <File FileName="Droid/MainActivity.cs" Line="31" Column="3" />
+      <File FileName="S2KLogin/UIClasses/PushSetting.xaml.cs" Line="48" Column="4" />
+      <File FileName="S2KLogin/UIClasses/Stipulation.xaml.cs" Line="19" Column="28" />
+      <File FileName="S2KLogin/UIClasses/Version.xaml.cs" Line="1" Column="1" />
+      <File FileName="S2KLogin/UIClasses/SignUp.xaml.cs" Line="25" Column="5" />
+      <File FileName="S2KLogin/UIClasses/Reset.xaml.cs" Line="12" Column="4" />
+      <File FileName="S2KLogin/UIClasses/Release.xaml.cs" Line="60" Column="6" />
+      <File FileName="S2KLogin/UIClasses/PCRegistration.xaml.cs" Line="1" Column="1" />
+      <File FileName="S2KLogin/UIClasses/PasswordMenu.xaml.cs" Line="32" Column="4" />
+      <File FileName="S2KLogin/UIClasses/PasswordFind.xaml.cs" Line="45" Column="4" />
+      <File FileName="S2KLogin/UIClasses/Password.xaml.cs" Line="26" Column="6" />
+      <File FileName="S2KLogin/UIClasses/Notice.xaml.cs" Line="1" Column="1" />
+      <File FileName="S2KLogin/UIClasses/Login.xaml.cs" Line="82" Column="34" />
+      <File FileName="S2KLogin/S2K/Secure2Key.cs" Line="20" Column="57" />
+      <File FileName="S2KLogin/S2K/S2KInterface.cs" Line="20" Column="36" />
+      <File FileName="S2KLogin/MainClasses/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="S2KLogin/MainClasses/LoginActivity.cs" Line="9" Column="3" />
+      <File FileName="S2KLogin/MainClasses/DeviceUuidFactory.cs" Line="1" Column="1" />
+      <File FileName="S2KLogin/MainClasses/CertificationActivity.cs" Line="1" Column="1" />
+      <File FileName="S2KLogin/Helpers/Settings.cs" Line="1" Column="1" />
+      <File FileName="S2KLogin/UIClasses/PushSetting.xaml" Line="48" Column="247" />
+      <File FileName="S2KLogin/UIClasses/Reset.xaml" Line="1" Column="1" />
+      <File FileName="S2KLogin/UIClasses/Release.xaml" Line="1" Column="1" />
+      <File FileName="Droid/S2KDependency.cs" Line="15" Column="26" />
+      <File FileName="S2KLogin/App.xaml" Line="1" Column="1" />
+      <File FileName="S2KLogin/App.xaml.cs" Line="11" Column="31" />
+      <File FileName="S2KLogin/UIClasses/SignUp.xaml" Line="1" Column="1" />
+      <File FileName="S2KLogin/UIClasses/S2KLoginPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="S2KLogin/UIClasses/Page3.xaml.cs" Line="25" Column="1" />
+      <File FileName="iOS/S2KDependency.cs" Line="36" Column="3" />
+      <File FileName="iOS/S2KiOS.cs" Line="128" Column="27" />
+      <File FileName="iOS/Main.cs" Line="17" Column="6" />
+      <File FileName="iOS/UUID_iOS.cs" Line="1" Column="1" />
+      <File FileName="iOS/S2KLogin.iOS.csproj" Line="1" Column="1" />
+      <File FileName="Droid/UUID_Android.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="S2KLogin" expanded="True">
+            <Node name="S2KLogin" expanded="True">
+              <Node name="S2K" expanded="True" />
+              <Node name="UIClasses" expanded="True">
+                <Node name="Intro3.xaml" expanded="True" />
+                <Node name="Login.xaml" expanded="True" />
+                <Node name="Password.xaml" expanded="True" />
+                <Node name="PasswordFind.xaml" expanded="True" />
+                <Node name="PasswordMenu.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+            <Node name="S2KLogin.Droid" expanded="True">
+              <Node name="lib" expanded="True">
+                <Node name="armeabi" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="S2KLogin.iOS" expanded="True" selected="True">
+              <Node name="lib" expanded="True">
+                <Node name="armeabi" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.S2KLogin.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+</Properties>

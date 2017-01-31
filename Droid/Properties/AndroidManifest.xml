@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.kounosoft.s2klogin">
+	<uses-sdk android:minSdkVersion="15" />
+	<application android:label="S2KLogin"></application>
+	<ItemGroup>
+    <AndroidNativeLibrary Include="lib/armeabi/libs2kJNI.so">
+        <Abi>armeabi</Abi>
+    </AndroidNativeLibrary>
+</ItemGroup>
+</manifest>

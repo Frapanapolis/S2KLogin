@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		 BackgroundColor="#63B1C1"
+x:Class="S2KLogin.Stipulation"
+		Title="Terms of Service" 
+		>
+	 
+	<ContentPage.Content>
+		
+ 		<Grid>	
+			<Grid Padding="15,20,15,0" VerticalOptions="Start">
+			<Image  
+				Source="stipulation_title_bg.png"/>
+			</Grid>
+			<Grid Padding="15,30,15,0">
+			<Image  
+				Source="stipulation_body_bg.png"/>
+			</Grid>
+
+
+			 
+				  
+			<StackLayout Padding="35,130,35,15"  >
+
+				<StackLayout Padding="0,0,0,45" Orientation="Vertical" VerticalOptions="FillAndExpand">
+
+         <ScrollView  Padding="6">
+            <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand">
+                <Label TextColor="Gray" FontSize="14" Text="S2KLogin Terms of Use " />
+                                 <Label TextColor="Gray" FontSize="14" Text="[Ltd. Kounosoft]" />
+                                 <Label TextColor="Gray" FontSize="14" Text="Article 1 [Collection of Perosnal Information and its Intended Use]" />
+							<Label TextColor="Gray" FontSize="12" Text="The “Company” may use the personal information collected for the following objective. " />
+							<Label TextColor="Gray" FontSize="12" Text="1. Your information will be used for the Login Service provided by S2K Login. (*Only Fintech Mobile Operators will request your identification) terms of Service" />
+							<Label TextColor="Gray" FontSize="12" Text="2. User Information will be sent to your carrier to verify the information and also your phone." />
+							<Label TextColor="Gray" FontSize="12" Text="3. SMS Authentication Code will be sent to the user’s mobile phone for identification." />
+							<Label TextColor="Gray" FontSize="12" Text="4. User Information may be provided to prevent illegal activities that are under investigation." />
+							<Label TextColor="Gray" FontSize="12" Text="5. Cell Phone Number Protection Service is provided (Only for Subscribers)" />
+
+							<Label TextColor="Gray" FontSize="14" Text="Article 2 [Collection and usage of Personal Information List]" />
+							<Label TextColor="Gray" FontSize="12" Text="1.Name, Gender, Date of Birth
+																		2.Local/Foreigner Status		
+																		3.Mobile Phone Number     	
+																		4.Phone Carrier        	                 
+																		5.IP Address  					            
+																		6.Contact Information
+																		7.Membership Information Duplication Prevention " />
+
+ 
+
+							<Label TextColor="Gray" FontSize="14" Text="Article 3 [Personal Information Retention and Availability]" />
+							<Label TextColor="Gray" FontSize="12" Text="If the “Company” has completed the purpose or use of your personal information then the retention period for the information ends, therefore the information will be erased without delay and no duplicate copies will be made. However, for the purposes of the service during the retention period, the information will be stored in accordance with relevant laws, regulations, and company policies." />
+							<Label TextColor="Gray" FontSize="14" Text="Article 4 [Withdrawal Service]" />
+							<Label TextColor="Gray" FontSize="12" Text="The service fee will be discontinued once you chose to leave the service. If there is an automatic payment process in place, then that will be stopped the month after you chose to leave the service.*Written complaints or disputes between the consumer and the company will be stored as well in accordance with laws regulating Consumer Protection. The retention period for these documents is three years." />
+							<Label TextColor="Gray" FontSize="14" Text="I have read the Terms of Service and by pressing the 'Agree' button I agree to it." />
+						</StackLayout>
+        </ScrollView>
+     </StackLayout>
+  				 
+ 
+         <Grid  >
+         		<Grid.RowDefinitions>
+         			<RowDefinition Height="35" />
+		 		</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+    				<ColumnDefinition Width="*" />
+					<ColumnDefinition Width="*" />
+    				<ColumnDefinition Width="*" />
+    				<ColumnDefinition Width="*" />
+
+					 
+				</Grid.ColumnDefinitions>
+					  	<Button Text="Agree" BackgroundColor="#333333" Grid.Row="0" Grid.Column="1" HeightRequest="15" WidthRequest="100" HorizontalOptions="CenterAndExpand" TextColor="White" Clicked="OnAgree"   />
+					<Button Text="Cancle" BackgroundColor="#333333" Grid.Row="0" Grid.Column="2" HeightRequest="15" WidthRequest="100" HorizontalOptions="CenterAndExpand" TextColor="White" Clicked="OnCancle"   />
+					  	 
+		</Grid>
+		</StackLayout>
+		</Grid>
+	</ContentPage.Content>
+</ContentPage>

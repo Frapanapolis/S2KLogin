@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		 BackgroundColor="#63B1C1"
+x:Class="S2KLogin.PushSetting"
+		 Title="Push Settings">
+	<ContentPage.Content>
+		
+ 		<Grid>	
+			 
+			 
+
+		<StackLayout    >
+
+
+		 
+				
+         	 
+			<Grid Padding="0,15,0,0" >
+         		<Grid.RowDefinitions>
+         			<RowDefinition Height="75" />
+		 			<RowDefinition Height="35" />
+					<RowDefinition Height="35" />
+					<RowDefinition Height="35" />
+					<RowDefinition Height="35" />
+					<RowDefinition Height="35" />	
+				</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+    				<ColumnDefinition Width="*" />
+    				<ColumnDefinition Width="80" />
+					<ColumnDefinition Width="80" />
+    				<ColumnDefinition Width="80" />
+    				<ColumnDefinition Width="*" />
+ 				</Grid.ColumnDefinitions>
+					<Image Source="push_mark.png" Grid.Column="1" Grid.Row="0" Scale="1" Grid.ColumnSpan="3" Grid.RowSpan="2" HorizontalOptions="Center" VerticalOptions="Center"/>
+					<Label FontAttributes="Bold" Text="Current Status: Vibration" TextColor="Black" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3" FontSize="15" HorizontalTextAlignment="Center" VerticalOptions="StartAndExpand"></Label>
+ 
+   						<Image  Source="push_vibration.png" Scale="1" Grid.Row="4" Grid.Column="1"/>
+   						<Image  Source="push_sound.png" Scale="1" Grid.Row="4" Grid.Column="2" />
+   						<Image  Source="push_silence.png" Scale="1" Grid.Row="4" Grid.Column="3" />
+					
+   							<Button Text="Vibration" BackgroundColor="#333333" Grid.Row="5" Grid.Column="1" HeightRequest="15" WidthRequest="80" HorizontalOptions="CenterAndExpand" TextColor="White"  FontSize="10" Clicked="Push_Vibration" />
+					  		<Button Text="Sound" BackgroundColor="#333333" Grid.Row="5" Grid.Column="2" HeightRequest="15" WidthRequest="80" HorizontalOptions="CenterAndExpand" TextColor="White"   FontSize="10" Clicked="Push_Sound" />
+					  		<Button Text="Silence" BackgroundColor="#333333" Grid.Row="5" Grid.Column="3" HeightRequest="15" WidthRequest="80" HorizontalOptions="CenterAndExpand" TextColor="White"   FontSize="10" Clicked="Push_Silence"/>
+
+					
+					<Label FontAttributes="Bold" Text="Turn off Push Notification" TextColor="Black" Grid.Row="7" Grid.ColumnSpan="3" Grid.Column="1" FontSize="15" HorizontalOptions="Center" VerticalOptions="End" ></Label>
+ 					<Button Text="Push Notice" BackgroundColor="#333333" Grid.Row="8" Grid.ColumnSpan="3" Grid.Column="1" HeightRequest="35" WidthRequest="150" HorizontalOptions="CenterAndExpand" TextColor="White" VerticalOptions="Start"  Clicked="Push_Toggle"   />
+			</Grid>
+			 
+ 		</StackLayout>
+		</Grid>
+	</ContentPage.Content>
+</ContentPage>
