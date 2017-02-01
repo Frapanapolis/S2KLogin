@@ -8,7 +8,7 @@ namespace S2KLogin
 		{
 			InitializeComponent();
 
-			MainPage = new  MainPageS2K();
+			MainPage = new  PasswordFind();
 		}
 
 		protected override void OnStart()

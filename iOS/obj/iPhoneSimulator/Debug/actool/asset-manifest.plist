@@ -86,44 +86,5 @@
 			<string>Inapplicable Content</string>
 		</dict>
 	</array>
-	<key>com.apple.actool.document.warnings</key>
-	<array>
-		<dict>
-			<key>affected-items</key>
-			<array>
-				<string>./AppIcon.appiconset</string>
-			</array>
-			<key>catalog</key>
-			<string>/Users/kounoimac/Projects/S2KLogin/iOS/Assets.xcassets</string>
-			<key>message</key>
-			<string>A 76x76 app icon is required for iPad apps targeting iOS 7, 8, and 9</string>
-			<key>type</key>
-			<string>Missing Content</string>
-		</dict>
-		<dict>
-			<key>affected-items</key>
-			<array>
-				<string>./AppIcon.appiconset</string>
-			</array>
-			<key>catalog</key>
-			<string>/Users/kounoimac/Projects/S2KLogin/iOS/Assets.xcassets</string>
-			<key>message</key>
-			<string>A 76x76@2x app icon is required for iPad apps targeting iOS 7.0 and later</string>
-			<key>type</key>
-			<string>Missing Content</string>
-		</dict>
-		<dict>
-			<key>affected-items</key>
-			<array>
-				<string>./AppIcon.appiconset</string>
-			</array>
-			<key>catalog</key>
-			<string>/Users/kounoimac/Projects/S2KLogin/iOS/Assets.xcassets</string>
-			<key>message</key>
-			<string>A 83.5x83.5@2x app icon is required for iPad apps targeting iOS 9.0 and later</string>
-			<key>type</key>
-			<string>Missing Content</string>
-		</dict>
-	</array>
 </dict>
 </plist>

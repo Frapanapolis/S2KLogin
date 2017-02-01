@@ -24,12 +24,15 @@
     <MtouchUseSGen>true</MtouchUseSGen>
     <MtouchUseRefCounting>true</MtouchUseRefCounting>
     <IOSDebuggerPort>47644</IOSDebuggerPort>
-    <MtouchLink>None</MtouchLink>
+    <MtouchLink>SdkOnly</MtouchLink>
     <MtouchArch>x86_64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <MtouchTlsProvider>Default</MtouchTlsProvider>
     <PlatformTarget>x86</PlatformTarget>
-    <MtouchExtraArgs></MtouchExtraArgs>
+    <MtouchExtraArgs>-gcc_flags "-force_load ${ProjectDir}/libS2KLibs.a"
+
+</MtouchExtraArgs>
+    <MtouchSdkVersion>10.2</MtouchSdkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>pdbonly</DebugType>
@@ -84,6 +87,7 @@
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <MtouchTlsProvider>Default</MtouchTlsProvider>
     <PlatformTarget>x86</PlatformTarget>
+    <MtouchSdkVersion>10.2</MtouchSdkVersion>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -138,6 +142,8 @@
     <None Include="Entitlements.plist" />
     <None Include="packages.config" />
     <None Include="lib\armeabi\libs2k.dylib" />
+    <None Include="libS2KTest.a" />
+    <None Include="libS2KLibs.a" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />

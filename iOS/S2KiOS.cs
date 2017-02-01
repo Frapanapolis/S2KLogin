@@ -125,7 +125,7 @@ namespace S2KLogin.iOS
 		public extern static String pc_registerDeviceChange(String jarg1, String jarg2, String jarg3);
 
 
-		[DllImport("libs2k.dylib" , EntryPoint = "pc_requestTempPassword")]
+		[DllImport("__Internal")]
 		public extern static String pc_requestTempPassword(String jarg1, String jarg2, String jarg3);
 
 		[DllImport("s2k")]

@@ -16,11 +16,9 @@ void xamarin_register_assemblies_impl ()
 
 }
 
-void xamarin_create_classes_Xamarin_iOS();
 void xamarin_setup_impl ()
 {
 	xamarin_use_old_dynamic_registrar = FALSE;
-	xamarin_create_classes_Xamarin_iOS();
 	xamarin_gc_pump = TRUE;
 	xamarin_init_mono_debug = TRUE;
 	xamarin_compact_seq_points = FALSE;
