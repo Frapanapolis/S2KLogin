@@ -1,11 +1,19 @@
 ﻿using System;
 using S2KLogin.Helpers;
+using uPLibrary.Networking.M2Mqtt;
 namespace S2KLogin
 {
 	public class MainActivity
 	{
 		public MainActivity()
 		{
+			  MqttClient client;
+			  string brokerURL = "tcp://68.71.11.18:1883";
+			System.ip
+			string clientId = "";
+			MqttSslUtility.
+			              client = new MqttClient(brokerURL,;
+
 			DeviceUuidFactory uuidFactory = new DeviceUuidFactory();
 			String uuidString = ID.getID();
 			if ((uuidString != null) && (0 < uuidString.Length))
@@ -27,6 +35,7 @@ namespace S2KLogin
 			}
 
 			loginCheck();
+ 		 
 
 		}
 		 

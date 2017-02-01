@@ -1,38 +1,41 @@
 ﻿<Properties StartupConfiguration="{A226F561-AA0F-4401-8495-27E4C3D59524}|Default">
   <MonoDevelop.Ide.ItemProperties.S2KLogin.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9F9D4BC1-50F2-4398-A797-8B5C254B6F37" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="S2KLogin/utils/StaticValues.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="S2KLogin/MainClasses/MainActivity.cs">
     <Files>
-      <File FileName="iOS/S2KiOS.cs" Line="127" Column="3" />
-      <File FileName="iOS/S2KDependency.cs" Line="214" Column="1" />
+      <File FileName="iOS/S2KiOS.cs" Line="26" Column="61" />
+      <File FileName="iOS/S2KDependency.cs" Line="17" Column="25" />
       <File FileName="../../../../Library/Frameworks/Xamarin.iOS.framework/Versions/10.3.1.8/lib/mono/2.1/Xamarin.iOS.Common.targets" Line="1" Column="1" />
       <File FileName="S2KLogin/UIClasses/MainPageS2K.xaml.cs" Line="25" Column="41" />
       <File FileName="S2KLogin/App.xaml" Line="1" Column="1" />
-      <File FileName="S2KLogin/App.xaml.cs" Line="11" Column="32" />
+      <File FileName="S2KLogin/App.xaml.cs" Line="5" Column="29" />
       <File FileName="S2KLogin/UIClasses/MasterPage.xaml.cs" Line="1" Column="1" />
       <File FileName="iOS/Main.cs" Line="18" Column="1" />
       <File FileName="iOS/Entitlements.plist" />
       <File FileName="iOS/Info.plist" />
-      <File FileName="S2KLogin/S2K/Secure2Key.cs" Line="206" Column="1" />
-      <File FileName="S2KLogin/UIClasses/PasswordFind.xaml.cs" Line="44" Column="61" />
-      <File FileName="S2KLogin/utils/StaticValues.cs" Line="31" Column="24" />
+      <File FileName="S2KLogin/S2K/Secure2Key.cs" Line="9" Column="4" />
+      <File FileName="S2KLogin/UIClasses/PasswordFind.xaml.cs" Line="51" Column="35" />
+      <File FileName="S2KLogin/utils/StaticValues.cs" Line="36" Column="2" />
+      <File FileName="S2KLogin/S2K/S2KInterface.cs" Line="7" Column="4" />
+      <File FileName="Droid/S2KDroid.cs" Line="9" Column="3" />
+      <File FileName="Droid/S2KDependency.cs" Line="251" Column="10" />
+      <File FileName="S2KLogin/MainClasses/MainActivity.cs" Line="12" Column="13" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="S2KLogin" expanded="True">
             <Node name="S2KLogin" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="MainClasses" expanded="True">
+                <Node name="MainActivity.cs" selected="True" />
+              </Node>
               <Node name="S2K" expanded="True" />
               <Node name="UIClasses" expanded="True">
-                <Node name="MainPageS2K.xaml" expanded="True" />
-                <Node name="MasterPage.xaml" expanded="True" />
                 <Node name="PasswordFind.xaml" expanded="True" />
               </Node>
-              <Node name="utils" expanded="True">
-                <Node name="StaticValues.cs" selected="True" />
-              </Node>
-              <Node name="App.xaml" expanded="True" />
             </Node>
             <Node name="S2KLogin.iOS" expanded="True">
+              <Node name="Packages" expanded="True" />
               <Node name="lib" expanded="True">
                 <Node name="armeabi" expanded="True" />
               </Node>

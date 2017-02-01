@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.Text.RegularExpressions;
 using Xamarin.Forms;
 using System.Text;
+using System.Runtime.InteropServices;
 namespace S2KLogin
 {
 	public partial class PasswordFind : ContentPage
@@ -29,19 +30,26 @@ namespace S2KLogin
 			userID = IDEntry.Text;
 			userEmail = EmailEntry.Text;
 
-			if (userID.Length < 4 || userEmail.Length <= 0)
-			{
-				DisplayAlert("ID Error", "The ID or Password you entered is invalid", "OK");
-				return;
-			}
-			if (!EmailIsValid(userEmail))
-			{
-				DisplayAlert("Email Error", "The email you entered is invalid", "OK");
-				return;
-			}
+			//if (userID.Length < 4 || userEmail.Length <= 0)
+			//{
+			//	DisplayAlert("ID Error", "The ID or Password you entered is invalid", "OK");
+			//	return;
+			//}
+			//if (!EmailIsValid(userEmail))
+			//{
+			//	DisplayAlert("Email Error", "The email you entered is invalid", "OK");
+			//	return;
+			//}
 			byte[] emailBytes = Encoding.UTF8.GetBytes(userEmail);
 			String hexedEmail = bytesToHex(emailBytes);
-			Secure2Key.pc_requestTempPassword(userID, StaticValues.reqNumber, hexedEmail);
+			String result = Secure2Key.pc_requestTempPassword(userID, StaticValues.reqNumber, hexedEmail);
+			//IntPtr test = Secure2Key.pc_requestTempPassword(userID, StaticValues.reqNumber, hexedEmail);
+			Debug.WriteLine(result);
+			//String TaskResult = result.ToString();
+			//Debug.WriteLine(TaskResult);
+			//var ver = Secure2Key.test();
+			//String test = ver.ToString();
+			//Debug.WriteLine(ver);
 		}
 
 

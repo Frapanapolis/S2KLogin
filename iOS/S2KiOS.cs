@@ -7,156 +7,159 @@ namespace S2KLogin.iOS
 {
 	public static class S2KiOS
 	{
-		 [DllImport("s2k")]
-		public extern static String authLogin(String jarg1, String jarg2);
+		 
 
-		[DllImport("s2k")]
-		public extern static String authDeviceRegister(String jarg1);
 
-		[DllImport("s2k")]
-		public extern static String authRegisterConfirm();
+		 [DllImport("__Internal")]
+		public extern static IntPtr authLogin(String jarg1, String jarg2);
 
-		[DllImport("s2k")]
-		public extern static String requestWholeData(String jarg1, String jarg2);
+		[DllImport("__Internal")]
+		public extern static IntPtr authDeviceRegister(String jarg1);
 
-		[DllImport("s2k")]
-		public extern static String requestUserConfirm(int jarg1);
+		[DllImport("__Internal")]
+		public extern static IntPtr authRegisterConfirm();
 
-		[DllImport("s2k")]
-		public extern static String requestLatestPushData();
+		[DllImport("__Internal")]
+		public extern static IntPtr requestWholeData(String jarg1, String jarg2);
 
-		[DllImport("s2k")]
+		[DllImport("__Internal")]
+		public extern static IntPtr requestUserConfirm(int jarg1);
+
+		[DllImport("__Internal")]
+		public extern static IntPtr requestLatestPushData();
+
+		[DllImport("__Internal")]
 		public extern static void clearInternalData();
 
-		[DllImport("s2k")]
-		public extern static String isAvailable();
+		[DllImport("__Internal")]
+		public extern static IntPtr isAvailable();
 
-		[DllImport("s2k")]
+		[DllImport("__Internal")]
 		public extern static void writePassword(String jarg1);
 
-		[DllImport("s2k")]
-		public extern static String comparePassword(String jarg1);
+		[DllImport("__Internal")]
+		public extern static IntPtr comparePassword(String jarg1);
 
-		[DllImport("s2k")]
-		public extern static String readPassword();
+		[DllImport("__Internal")]
+		public extern static IntPtr readPassword();
 
-		[DllImport("s2k")]
-		public extern static String readIsPWOn();
+		[DllImport("__Internal")]
+		public extern static IntPtr readIsPWOn();
 
-		[DllImport("s2k")]
+		[DllImport("__Internal")]
 		public extern static void writeIsPWOn(int jarg1);
 
-		[DllImport("s2k")]
-		public extern static String refreshData(String jarg1);
+		[DllImport("__Internal")]
+		public extern static IntPtr refreshData(String jarg1);
 
-		[DllImport("s2k")]
-		public extern static String getEncData();
+		[DllImport("__Internal")]
+		public extern static IntPtr getEncData();
 
-		[DllImport("s2k")]
-		public extern static String writeModeChange(int jarg1);
+		[DllImport("__Internal")]
+		public extern static IntPtr writeModeChange(int jarg1);
 
-		[DllImport("s2k")]
-		public extern static String readMode();
+		[DllImport("__Internal")]
+		public extern static IntPtr readMode();
 
-		[DllImport("s2k")]
-		public extern static String userConfirmType2(String jarg1, String jarg2);
+		[DllImport("__Internal")]
+		public extern static IntPtr userConfirmType2(String jarg1, String jarg2);
 
-		[DllImport("s2k")]
-		public extern static String remains();
+		[DllImport("__Internal")]
+		public extern static IntPtr remains();
 
-		[DllImport("s2k")]
-		public extern static String enterUUID(String jarg1);
+		[DllImport("__Internal")]
+		public extern static IntPtr enterUUID(String jarg1);
 
-		[DllImport("s2k")]
-		public extern static String call_registerDeviceAndUserInfo(String jarg1, String jarg2, String jarg3, String jarg4);
+		[DllImport("__Internal")]
+		public extern static IntPtr call_registerDeviceAndUserInfo(String jarg1, String jarg2, String jarg3, String jarg4);
 
-		[DllImport("s2k")]
-		public extern static String call_registerFinAccountCard(String jarg1, String jarg2);
+		[DllImport("__Internal")]
+		public extern static IntPtr call_registerFinAccountCard(String jarg1, String jarg2);
 
-		[DllImport("s2k")]
-		public extern static String requestResignDevice();
+		[DllImport("__Internal")]
+		public extern static IntPtr requestResignDevice();
 
-		[DllImport("s2k")]
-		public extern static String registerContentOfEFT(String jarg1, String jarg2, String jarg3, String jarg4, String jarg5, String jarg6);
+		[DllImport("__Internal")]
+		public extern static IntPtr registerContentOfEFT(String jarg1, String jarg2, String jarg3, String jarg4, String jarg5, String jarg6);
 
-		[DllImport("s2k")]
-		public extern static String requestListOfEFT(String jarg1);
+		[DllImport("__Internal")]
+		public extern static IntPtr requestListOfEFT(String jarg1);
 
-		[DllImport("s2k")]
-		public extern static String registerPurchaseData(String jarg1, String jarg2, String jarg3);
+		[DllImport("__Internal")]
+		public extern static IntPtr registerPurchaseData(String jarg1, String jarg2, String jarg3);
 
-		[DllImport("s2k")]
-		public extern static String requestStateOfFinAccountCard(String jarg1, String jarg2);
+		[DllImport("__Internal")]
+		public extern static IntPtr requestStateOfFinAccountCard(String jarg1, String jarg2);
 
-		[DllImport("s2k")]
-		public extern static String requestEFTSuggestion();
+		[DllImport("__Internal")]
+		public extern static IntPtr requestEFTSuggestion();
 
-		[DllImport("s2k")]
-		public extern static String requestChangeEFTName(String jarg1, String jarg2, String jarg3);
+		[DllImport("__Internal")]
+		public extern static IntPtr requestChangeEFTName(String jarg1, String jarg2, String jarg3);
 
-		[DllImport("s2k")]
-		public extern static String registerIABState(String jarg1, String jarg2);
+		[DllImport("__Internal")]
+		public extern static IntPtr registerIABState(String jarg1, String jarg2);
 
-		[DllImport("s2k")]
-		public extern static String requestResignService();
+		[DllImport("__Internal")]
+		public extern static IntPtr requestResignService();
 
-		[DllImport("s2k")]
-		public extern static String requestRegisteredFinAccountCard();
+		[DllImport("__Internal")]
+		public extern static IntPtr requestRegisteredFinAccountCard();
 
-		[DllImport("s2k")]
-		public extern static String requestUnregisterFinAccountCard(String jarg1, String jarg2, String jarg3);
+		[DllImport("__Internal")]
+		public extern static IntPtr requestUnregisterFinAccountCard(String jarg1, String jarg2, String jarg3);
 
-		[DllImport("s2k")]
-		public extern static String registerUserMessage(String jarg1);
+		[DllImport("__Internal")]
+		public extern static IntPtr registerUserMessage(String jarg1);
 
-		[DllImport("s2k")]
-		public extern static String requestUserMessageList();
+		[DllImport("__Internal")]
+		public extern static IntPtr requestUserMessageList();
 
-		[DllImport("s2k")]
-		public extern static String registerDeviceChange(String jarg1, String jarg2, String jarg3);
+		[DllImport("__Internal")]
+		public extern static IntPtr registerDeviceChange(String jarg1, String jarg2, String jarg3);
 
-		[DllImport("s2k")]
-		public extern static String makeSignSession();
+		[DllImport("__Internal")]
+		public extern static IntPtr makeSignSession();
 
-		[DllImport("s2k")]
-		public extern static String registerDeviceInfo();
+		[DllImport("__Internal")]
+		public extern static IntPtr registerDeviceInfo();
 
-		[DllImport("s2k")]
-		public extern static String pc_registerDeviceChange(String jarg1, String jarg2, String jarg3);
+		[DllImport("__Internal")]
+		public extern static IntPtr pc_registerDeviceChange(String jarg1, String jarg2, String jarg3);
 
 
 		[DllImport("__Internal")]
-		public extern static String pc_requestTempPassword(String jarg1, String jarg2, String jarg3);
+		public extern static IntPtr pc_requestTempPassword(String jarg1, String jarg2, String jarg3);
 
-		[DllImport("s2k")]
-		public extern static String pc_registerDeviceAndUserInfo(String jarg1, String jarg2, String jarg3, String jarg4, String jarg5, String jarg6);
+		[DllImport("__Internal")]
+		public extern static IntPtr pc_registerDeviceAndUserInfo(String jarg1, String jarg2, String jarg3, String jarg4, String jarg5, String jarg6);
 
-		[DllImport("s2k")]
-		public extern static String pc_requestRegisteredList();
+		[DllImport("__Internal")]
+		public extern static IntPtr pc_requestRegisteredList();
 
-		[DllImport("s2k")]
-		public extern static String pc_registerPCState(String jarg1, String jarg2, String jarg3);
+		[DllImport("__Internal")]
+		public extern static IntPtr pc_registerPCState(String jarg1, String jarg2, String jarg3);
 
-		[DllImport("s2k")]
-		public extern static String pc_requestNoticeList();
+		[DllImport("__Internal")]
+		public extern static IntPtr pc_requestNoticeList();
 
-		[DllImport("s2k")]
-		public extern static String pc_requestQNAList();
+		[DllImport("__Internal")]
+		public extern static IntPtr pc_requestQNAList();
 
-		[DllImport("s2k")]
-		public extern static String pc_registerQuestion(String jarg1);
+		[DllImport("__Internal")]
+		public extern static IntPtr pc_registerQuestion(String jarg1);
 
-		[DllImport("s2k")]
-		public extern static String pc_requestLatestVersion();
+		[DllImport("__Internal")]
+		public extern static IntPtr pc_requestLatestVersion();
 
-		[DllImport("s2k")]
-		public extern static String pc_requestReleaseDevice();
+		[DllImport("__Internal")]
+		public extern static IntPtr pc_requestReleaseDevice();
 
-		[DllImport("s2k")]
-		public extern static String pc_brokeService(String jarg1, String jarg2);
+		[DllImport("__Internal")]
+		public extern static IntPtr pc_brokeService(String jarg1, String jarg2);
 
-		[DllImport("s2k")]
-		public extern static String readUserInfo();
+		[DllImport("__Internal")]
+		public extern static IntPtr readUserInfo();
 
 	}
 

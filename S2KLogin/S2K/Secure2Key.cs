@@ -5,6 +5,8 @@ namespace S2KLogin
 {
 	public class Secure2Key
 	{
+
+		 
 		 public static String authLogin(String userID, String userPW)
 		{
 			return DependencyService.Get<S2KInterface>().authLogin(userID, userPW);
